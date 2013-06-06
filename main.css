@@ -15,9 +15,18 @@ header {
   border-bottom: 1.7px solid #C0C0C0;
 }
 
+h2, h3 {
+  margin-top: 38px;
+}
+
 p {
   font-family: "Georgia" serif;
   line-height: 25px;
+}
+
+blockquote {
+  line-height: 25px;
+  font-style: italic;
 }
 
 small.page_no {
