@@ -11,6 +11,10 @@
   width: 720px;
 }
 
+header {
+  border-bottom: 1.7px solid #C0C0C0;
+}
+
 small.page_no {
   float: right;
   color: #ddd;
@@ -28,4 +32,34 @@ small.page_no {
 
 .pagination a.disabled {
   color: #ccc;
+}
+
+/* display links horizontally */
+ol li {
+  display: inline;
+  
+}
+
+a.active {
+  background-color: #787878;
+  color: #FFFFFF;
+}
+
+a {
+  float: left;
+  min-width: 25px;
+  border: 1.25px solid #808080;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  background-color: #F0F0F0;
+}
+
+.footer {
+  float: left;
+  clear: both;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
